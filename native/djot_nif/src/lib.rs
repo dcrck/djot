@@ -22,4 +22,4 @@ pub fn to_html<'a>(env: Env<'a>, dj: &str) -> Result<Term<'a>, RustlerError> {
     }
 }
 
-rustler::init!("Elixir.Djot.Native", [to_html]);
+rustler::init!("Elixir.Djot.Native");
